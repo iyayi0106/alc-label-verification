@@ -6,9 +6,10 @@ Not connected to COLA. Images are processed in-memory for the request and not st
 
 ### Demo path
 
-1. Upload [`public/samples/old-tom-bourbon.png`](public/samples/old-tom-bourbon.png)
-2. Keep the prefilled sample Declared Fields (or click **Reset sample values**)
-3. Click **Verify label** and see results
+1. Go to [`https://alc-label-verification.vercel.app`](Alcohol Label Verification App)
+2. Upload [`public/samples/old-tom-bourbon.png`](public/samples/old-tom-bourbon.png)
+3. Keep the prefilled sample Declared Fields (or click **Reset sample values**)
+4. Click **Verify label** and see results
 
 ## Approach
 
