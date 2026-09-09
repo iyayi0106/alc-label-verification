@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #1a2332;
+  --paper: #f3efe6;
+  --paper-2: #e8e2d4;
+  --accent: #0b5f4a;
+  --accent-hover: #094c3b;
+  --match: #1b6b3a;
+  --mismatch: #9b2c2c;
+  --review: #8a5a00;
+  --line: #c9c0ae;
+  --danger-bg: #fde8e8;
+  --match-bg: #e6f4ea;
+  --mismatch-bg: #fde8e8;
+  --review-bg: #fff4d6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  color: var(--ink);
+  background:
+    radial-gradient(ellipse at top left, #fff9ef 0%, transparent 55%),
+    linear-gradient(180deg, var(--paper) 0%, var(--paper-2) 100%);
+  font-family: var(--font-sans), "Source Sans 3", "Segoe UI", sans-serif;
+}
+
+h1,
+h2,
+.brand {
+  font-family: var(--font-display), "Fraunces", Georgia, serif;
+}

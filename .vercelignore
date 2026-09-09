@@ -1,0 +1,13 @@
+.next
+.scratch
+.git
+node_modules
+.env*
+!.env.example
+README.md
+project-background.md
+AGENTS.md
+CONTEXT.md
+docs
+*.test.ts
+vitest.config.ts
