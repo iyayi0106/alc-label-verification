@@ -4,31 +4,11 @@ Standalone prototype for TTB-style compliance review: upload a **Label Image**, 
 
 Not connected to COLA. Images are processed in-memory for the request and not stored.
 
-## Quick start
-
-```bash
-npm install
-cp .env.example .env.local
-# set OPENAI_API_KEY in .env.local
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000).
-
 ### Demo path
 
 1. Upload [`public/samples/old-tom-bourbon.png`](public/samples/old-tom-bourbon.png)
 2. Keep the prefilled sample Declared Fields (or click **Reset sample values**)
-3. Click **Verify label**
-
-## Scripts
-
-| Command | Purpose |
-| --- | --- |
-| `npm run dev` | Local Next.js app |
-| `npm test` | Comparison unit tests |
-| `npm run typecheck` | TypeScript check |
-| `npm run build` | Production build |
+3. Click **Verify label** and see results
 
 ## Approach
 
